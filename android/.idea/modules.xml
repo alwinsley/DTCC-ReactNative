@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DTCCapp.iml" filepath="$PROJECT_DIR$/.idea/modules/DTCCapp.iml" group="DTCCapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="DTCCapp/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-965455863/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-965455863/react-native-community_masked-view.iml" group="DTCCapp/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1548188910/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/1548188910/react-native-gesture-handler.iml" group="DTCCapp/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2126827264/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-2126827264/react-native-linear-gradient.iml" group="DTCCapp/react-native-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-962937461/react-native-paypal.iml" filepath="$PROJECT_DIR$/.idea/modules/-962937461/react-native-paypal.iml" group="DTCCapp/react-native-paypal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/868369518/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/868369518/react-native-reanimated.iml" group="DTCCapp/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1892740649/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1892740649/react-native-safe-area-context.iml" group="DTCCapp/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1194884433/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1194884433/react-native-screens.iml" group="DTCCapp/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1427740020/react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1427740020/react-native-svg.iml" group="DTCCapp/react-native-svg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-323259992/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-323259992/react-native-vector-icons.iml" group="DTCCapp/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1935941855/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-1935941855/react-native-webview.iml" group="DTCCapp/react-native-webview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1751057483/react-native-youtube.iml" filepath="$PROJECT_DIR$/.idea/modules/1751057483/react-native-youtube.iml" group="DTCCapp/react-native-youtube" />
+    </modules>
+  </component>
+</project>

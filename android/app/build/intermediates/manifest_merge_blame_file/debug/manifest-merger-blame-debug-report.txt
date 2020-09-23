@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dtccapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.37.0] C:\Users\alwin\.gradle\caches\transforms-2\files-2.1\15cacb4283a7a012221743aaad25fff1\jetified-flipper-0.37.0\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.37.0] C:\Users\alwin\.gradle\caches\transforms-2\files-2.1\15cacb4283a7a012221743aaad25fff1\jetified-flipper-0.37.0\AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:6:5-26:19
+16        android:name="com.dtccapp.MainApplication"
+16-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:7:7-38
+17        android:allowBackup="false"
+17-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:11:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\alwin\.gradle\caches\transforms-2\files-2.1\7f5aeccd48d5bc731df0adf1c8d7029e\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:9:7-41
+21        android:label="@string/app_name"
+21-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:8:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:10:7-52
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:12:7-38
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\debug\AndroidManifest.xml:7:18-53
+26        <activity
+26-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:13:7-24:18
+27            android:name="com.dtccapp.MainActivity"
+27-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:14:9-37
+28            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+28-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:16:9-86
+29            android:label="@string/app_name"
+29-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:15:9-41
+30            android:launchMode="singleTask"
+30-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:18:9-40
+31            android:screenOrientation="portrait"
+31-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:17:9-45
+32            android:windowSoftInputMode="adjustResize" >
+32-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:19:9-51
+33            <intent-filter>
+33-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:20:9-23:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:21:13-65
+34-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:21:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:22:13-73
+36-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:22:23-70
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+39-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:25:7-84
+39-->C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\android\app\src\main\AndroidManifest.xml:25:17-81
+40        <activity
+40-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-26:20
+41            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+41-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-84
+42            android:launchMode="singleTask"
+42-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-44
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+43-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-72
+44            <intent-filter>
+44-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-25:29
+45                <action android:name="android.intent.action.VIEW" />
+45-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-69
+45-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:25-66
+46
+47                <category android:name="android.intent.category.DEFAULT" />
+47-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-76
+47-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:27-73
+48                <category android:name="android.intent.category.BROWSABLE" />
+48-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:17-78
+48-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:27-75
+49
+50                <data android:scheme="com.dtccapp.braintree" />
+50-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-69
+50-->[:react-native-paypal] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-paypal\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:23-66
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+55            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+55-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+56            android:authorities="com.dtccapp.fileprovider"
+56-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+57            android:exported="false"
+57-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+58            android:grantUriPermissions="true" >
+58-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+59            <meta-data
+59-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+61                android:resource="@xml/file_provider_paths" />
+61-->[:react-native-webview] C:\Users\alwin\Documents\ReactNative Projects\DTCCapp\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+62        </provider>
+63    </application>
+64
+65</manifest>
